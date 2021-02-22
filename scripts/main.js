@@ -24,7 +24,7 @@ dash.AboutMePageController = class{
     
         document.querySelector("#resumeBtn").onclick = (event) => {
             
-            window.location.href = 'https://rhit-webbma.github.io/webbma.github.io/resume.html';
+            window.location.href = '\resume.html';
     
         }
     }
@@ -38,7 +38,7 @@ dash.ResumePageController = class{
         document.querySelector("#backBtn").onclick = (event) => {
         
             console.log("hello");
-            window.location.href = 'https://rhit-webbma.github.io/webbma.github.io/index.html';
+            window.location.href = '\index.html';
     
         }
     }
