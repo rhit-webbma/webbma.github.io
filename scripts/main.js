@@ -38,7 +38,7 @@ dash.ResumePageController = class{
         document.querySelector("#backBtn").onclick = (event) => {
         
             console.log("hello");
-            window.location.href = 'file:///C:/Users/theda/Documents/PersonalPortfolio/public/index.html';
+            window.location.href = '/index.html';
     
         }
     }
