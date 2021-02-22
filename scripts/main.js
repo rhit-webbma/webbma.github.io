@@ -24,7 +24,7 @@ dash.AboutMePageController = class{
     
         document.querySelector("#resumeBtn").onclick = (event) => {
             
-            window.location.href = '\resume.html';
+            window.location.href = 'root/resume.html';
     
         }
     }
@@ -38,7 +38,7 @@ dash.ResumePageController = class{
         document.querySelector("#backBtn").onclick = (event) => {
         
             console.log("hello");
-            window.location.href = '\index.html';
+            window.location.href = 'root/index.html';
     
         }
     }
