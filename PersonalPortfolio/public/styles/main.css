@@ -1,0 +1,221 @@
+/* Style the video: 100% width and height to cover the entire window */
+
+body
+{
+    font-family: "ＭＳ Ｐゴシック";
+}
+
+#backBtn
+{
+    position: absolute;
+    z-index: 9995;
+    color: #f1f1f1;
+    font-size: 20px;
+    left: 0px;
+}
+
+#backgroundVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: relative;
+    bottom: 0;
+    /* background: rgba(0, 0, 0, 0.5); */
+    /* color: #f1f1f1; */
+    width: 100%;
+    padding: 20px;
+
+  }
+
+  #navButtons
+  {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      /* color: white; */
+      position: absolute;
+      right: 30px;
+      z-index: 9999;
+  }
+
+  #profileImg
+  {
+      position: absolute;
+      z-index: 9998;
+      border: darkblue;
+      width: 10%;
+
+  }
+
+  #infoContainer .card
+  {
+      position: absolute;
+      z-index: 9998;
+      margin-top: 230px;
+      width: 50%;
+  }
+
+  #header
+  {
+      position: absolute;
+      z-index: 9997;
+      margin-top: 25px;
+      
+  }
+
+  #resumeTitle
+  {
+    color: #cdcdcd;
+  }
+
+  #buttonLinkRow
+  {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  #buttonLinkRow button
+  {
+      margin: 0px 20px;
+      color: #2f2f2f;
+      font-size: 20px;
+  }
+
+  #buttonLinkRow button:hover
+  {
+      color: blue;
+  }
+
+
+  .tOButton
+  {
+    font-family: "ＭＳ Ｐゴシック";
+    margin-top: 10px;
+    font-size: 25px;
+    /* color: white; */
+    background:rgba(255, 255, 255, 0.8)  !important;
+    border:none;
+    cursor: pointer;
+  }
+
+  #AMcardHead
+  {
+      font-size: 25px;
+      font-family: "ＭＳ Ｐゴシック";
+    color: #2f2f2f;
+  }
+
+  #AMcardText
+  {
+    font-family: "ＭＳ Ｐゴシック";
+    color: #2f2f2f
+  }
+
+
+  .material-icons
+  {
+      font-size: 10px;
+  }
+
+
+  .tOButton:hover
+  {
+      color: rgb(48, 25, 52);
+  }
+
+  #header
+  {
+      color: #cdcdcd;
+  } 
+
+  #resumeContent
+  {
+      display: block;
+  }
+
+  #resumeTitle
+  {
+    position: absolute;
+    z-index: 9996;
+    margin-top: 20px;
+    text-align: center;   
+  }
+
+  #educationContainer
+  {
+      position: absolute;
+      z-index: 9994;
+      margin-top: 100px;
+  }
+
+  #educationContainer .card
+  {
+      width: 500px;
+  }
+
+  #educationCards .card
+  {
+      display: block;
+      text-align: center;
+  }
+
+  #experienceContainer
+  {
+      position: absolute;
+      z-index: 9994;
+      margin-top: 450px;
+  }
+
+  #experienceContainer .card
+  {
+      width: 500px;
+  }
+
+  #experienceCards .card
+  {
+      display: block;
+      text-align: center;
+  }
+  
+  
+
+  #cardPhoto
+  {
+      width: 100%;
+  }
+
+  #moreInfoButton
+  {
+      justify-content: center;
+  }
+
+  .modal
+  {
+      position: absolute;
+      z-index: 9999;
+  }
+
+  .card
+  {
+      /* background:rgba(255, 255, 255, 0.8) !important; */
+  }
+
+  .card .card-footer
+  {
+    background:rgba(255, 255, 255, 0.8)  !important;
+  }
+
+  .card #buttonLinkRow
+  {
+    background:rgba(255, 255, 255, 0.8) !important;
+  }
+
+
