@@ -24,7 +24,7 @@ dash.AboutMePageController = class{
     
         document.querySelector("#resumeBtn").onclick = (event) => {
             
-            window.location.href = 'resume.html';
+            window.location.href = '/resume.html';
     
         }
     }
